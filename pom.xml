@@ -456,24 +456,24 @@
 
 		</dependencies>
 	</dependencyManagement>
-<!-- 
+ 
 	<distributionManagement>
 		<repository>
 			<id>nexus-releases</id>
 			<name>Nexus Release Repository</name>
-			<url>http://192.168.1.5:8081/nexus/content/repositories/releases/</url>
+			<url>http://192.168.1.156:8081/nexus/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus-snapshots</id>
 			<name>Nexus Snapshot Repository</name>
-			<url>http://192.168.1.5:8081/nexus/content/repositories/snapshots/</url>
+			<url>http://192.168.1.156:8081/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
 	<repositories>
 		<repository>
 			<id>public</id>
-			<url>http://192.168.1.5:8081/nexus/content/groups/public/</url>
+			<url>http://192.168.1.156:8081/nexus/content/groups/public/</url>
 			<releases>
 				<enabled>true</enabled>
 				<updatePolicy>always</updatePolicy>
@@ -488,7 +488,7 @@
 	<pluginRepositories>
 		<pluginRepository>
 			<id>public</id>
-			<url>http://192.168.1.5:8081/nexus/content/groups/public/</url>
+			<url>http://192.168.1.156:8081/nexus/content/groups/public/</url>
 			<layout>default</layout>
 			<releases>
 				<enabled>true</enabled>
@@ -500,7 +500,7 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
- -->
+
 	<build>
 		<finalName>${project.artifactId}-${project.version}</finalName>
 		<plugins>
