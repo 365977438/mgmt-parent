@@ -9,7 +9,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<spring.version>3.2.6.RELEASE</spring.version>
+		<spring.version>3.2.9.RELEASE</spring.version>
 		<spring.security.version>3.2.0.RELEASE</spring.security.version>
 		<slf4j.version>1.6.6</slf4j.version>
 		<logback.version>1.0.7</logback.version>
@@ -457,7 +457,7 @@
 		</dependencies>
 	</dependencyManagement>
  
-	<distributionManagement>
+	<!-- <distributionManagement>
 		<repository>
 			<id>nexus-releases</id>
 			<name>Nexus Release Repository</name>
@@ -499,7 +499,7 @@
 				<updatePolicy>always</updatePolicy>
 			</snapshots>
 		</pluginRepository>
-	</pluginRepositories>
+	</pluginRepositories> -->
 
 	<build>
 		<finalName>${project.artifactId}-${project.version}</finalName>
