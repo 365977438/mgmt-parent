@@ -457,7 +457,7 @@
 		</dependencies>
 	</dependencyManagement>
  
-	<!-- <distributionManagement>
+	<distributionManagement>
 		<repository>
 			<id>nexus-releases</id>
 			<name>Nexus Release Repository</name>
@@ -499,7 +499,7 @@
 				<updatePolicy>always</updatePolicy>
 			</snapshots>
 		</pluginRepository>
-	</pluginRepositories> -->
+	</pluginRepositories>
 
 	<build>
 		<finalName>${project.artifactId}-${project.version}</finalName>
